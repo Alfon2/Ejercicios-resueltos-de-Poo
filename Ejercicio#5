@@ -1,0 +1,10 @@
+suma = 0
+x = 20
+y = 40
+print("SUMA X Y")
+print(suma, x, y)
+suma = suma + x
+x = x + y**2
+print(suma, x)
+suma = suma + x / y
+print(suma)
