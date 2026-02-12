@@ -1,9 +1,6 @@
 import math
-
 radio = float(input("Ingrese el radio: "))
-
 area = math.pi * radio**2
 longitud = 2 * math.pi * radio
-
 print("Área:", round(area, 2))
 print("Longitud:", round(longitud, 2))
